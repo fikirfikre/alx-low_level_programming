@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - print "Programming is like building a multilingual puzzle , followed by a new line.
+ * main - print "Programming is like building a multilingual puzzle,
+ * followed by a new line.
  * Description: it will display the value.
  * Return: Always 0 (Success).
  */
