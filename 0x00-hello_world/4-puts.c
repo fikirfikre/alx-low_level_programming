@@ -2,12 +2,10 @@
  * File:4-puts.c
  * Auth : Fikir student at Alx
  */
-
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
+ * main - Entry
+ * Description: it will display the value
  * Return: Always 0 (Success)
  */
 int main(void)
