@@ -1,7 +1,3 @@
-/**
- * File:4-puts.c
- * Auth : Fikir student at Alx
- */
 #include <stdio.h>
 /**
  * main - Entry
