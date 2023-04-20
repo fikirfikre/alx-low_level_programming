@@ -1,4 +1,3 @@
-
 /**
  * File:4-puts.c
  * Auth : Fikir student at Alx
@@ -16,8 +15,7 @@
 int main(void)
 {
   /*it will print the value*/
-  
   puts("\"Programming is like building a multilingual puzzle");
-  
+  /*success*/
   return (0);
 }
