@@ -10,12 +10,11 @@
  *
  *Return : Always 0
  *
-*/
-
+ */
 int main(void)
 {
-  /*it will print the value*/
+/*it will print the value*/
   puts("\"Programming is like building a multilingual puzzle");
-  /*success*/
+/*success*/
   return (0);
 }
