@@ -22,22 +22,19 @@ void times_table(void)
 		
 		  _putchar((mul/10) + '0');
 		  _putchar((mul%10) + '0');
-		  if (j != 9)
-		    {
-		      _putchar(',');
-		      _putchar(' ');
-		    }
 	    }
 	  else
 	    {
+	      _putchar(' ');
 	      _putchar(mul + '0');
-	      if (j != 9)
+	    }
+
+	  if (j != 9)
 		{
 		  _putchar(',');
 		  _putchar(' ');
-		  _putchar(' ');
 		}
-	    }
+	    
 	}
       _putchar('\n');
     }
