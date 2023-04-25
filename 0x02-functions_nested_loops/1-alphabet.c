@@ -1,8 +1,3 @@
-/**
- * file_name: 1-alphabet
- * alx - task1
- * by : Fikir Fikre
- */
 #include "main.h"
 /**
  * print_alphabet - prints the alphabet in lowercase,
