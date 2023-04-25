@@ -5,10 +5,8 @@
  */
 #include "main.h"
 /**
- * main - prints the alphabet in lowercase,
+ * print_alphabet - prints the alphabet in lowercase,
  * followed by a new line
- *
- * Return: 0 (SUCCESS)
  */
 void print_alphabet(void)
 {
