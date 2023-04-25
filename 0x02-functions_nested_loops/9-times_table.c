@@ -24,8 +24,10 @@ void times_table(void)
 		  _putchar((mul%10) + '0');
 	    }
 	  else
-	    {
-	      _putchar(' ');
+	    { if (j != 0)
+		{
+		  _putchar(' ');
+		}
 	      _putchar(mul + '0');
 	    }
 
