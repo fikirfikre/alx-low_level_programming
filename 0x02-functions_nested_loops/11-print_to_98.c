@@ -22,7 +22,14 @@ void print_to_98(int n)
 		      _putchar('-');
 		      if (i <= -10)
 			{
-			  _putchar((-1*i)/10 + '0');
+			  d = i / 10;
+			    if (d <= -10)
+			      {
+			       _putchar((-1*d)/10 + '0');
+			       _putchar((-1*d)%10 + '0');
+			      }
+			    else
+			       _putchar((-1*i)/10 + '0');
 			  _putchar((-1*i)%10 + '0');
 			}
 		      else
