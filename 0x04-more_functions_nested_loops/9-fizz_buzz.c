@@ -4,6 +4,8 @@
  * a new line,But for multiples of three pirnt Fizz and
  * for the multiples of five print Buzz, For numbers wh
  * are muliple of both thre and five print FizzBuzz.
+ *
+ * Return: 0
  */
  
 int main(void)
@@ -13,13 +15,15 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-		 	printf("%s ","FizzBuzz");
+		 	printf("%s","FizzBuzz");
 		 else if( i % 3 == 0)
-		 	printf("%s ","Fizz");
+		 	printf("%s","Fizz");
 		 else if(i % 5 == 0)
-		 	printf("%s ","Buzz");
+		 	printf("%s","Buzz");
 		 else
-		 	printf("%d ",i);
+		 	printf("%d",i);
+		 	
+		 putchar(' ');
 		
 	}
 	return (0);
