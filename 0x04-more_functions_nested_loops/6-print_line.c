@@ -2,6 +2,7 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n - an input variable
+ * Return: 0
  */
  
 void print_line(int n)
@@ -14,5 +15,7 @@ void print_line(int n)
 			_putchar('_');
 		_putchar('\n');
 	}
+	else
+		_putchar('\n');
 }
 	   
