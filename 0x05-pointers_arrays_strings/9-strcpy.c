@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcpy - it copies the string pointed to by src, includeint the 
+ * _strcpy - it copies the string pointed to by src, includeint the
  * terminating null byte, to the buffer ointed to by dest.
  * @src: pointer to string
  * @dest: pointer tostring
@@ -10,7 +10,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int i, j;
-	
+
 	i = 0;
 	while (src[i] != '\0')
 		i++;
