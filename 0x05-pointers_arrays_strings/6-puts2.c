@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * puts2 - prints every even character of a string,starting with the first character,
+ * puts2 - prints every even character of a string,
+ * starting with the first character,
  * followed by a new line.
  * @str: a string
  * Return: 0
@@ -8,11 +9,12 @@
 void puts2(char *str)
 {
 	int i;
-	
-	for (i = 0; str[i] != '\0'; i++)
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		if (str[i] % 2 == 0)
-			_putchar(str[i]);
+		_putchar(str[i]);
+		i = i + 2;
 	}
 	_putchar('\n');
 }
