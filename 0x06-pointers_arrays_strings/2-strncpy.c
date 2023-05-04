@@ -15,7 +15,12 @@ char *_strncpy(char *dest, char *src, int n)
 	start = dest;
 	for (i = 0; i < n; i++)
 	{
-		*start++ = *src++;
+		if(*src != '\0')
+			*start++ = *src++;
+		else
+			break;
 	}
+	for( ; i < n; i++)
+		*start = '\0';	
 	return (dest);
 }
