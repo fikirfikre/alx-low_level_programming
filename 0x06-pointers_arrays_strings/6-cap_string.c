@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * cap_string - it capitalizes all words of a string.
  * @str: a string variable
@@ -29,5 +28,5 @@ char *cap_string(char *str)
         	p1++;
         	p2++;
 	}
-        return (str);    	
-}	
+        return (str);
+}
