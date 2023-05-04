@@ -18,7 +18,10 @@ char *rot13(char *str)
 		for (i = 0; i < 52; i++)
 		{
 			if (*p == a1[i])
+			{
 				*p = a2[i];
+				break;
+			}
 		}
 		p++;
 	}
