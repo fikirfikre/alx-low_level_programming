@@ -20,7 +20,7 @@ char *_strncpy(char *dest, char *src, int n)
 		else
 			break;
 	}
-	for (; i < n - 1; i++)
+	for ( ; i < n - 1; i++)
 		*start = '\0';
 	return (dest);
 }
