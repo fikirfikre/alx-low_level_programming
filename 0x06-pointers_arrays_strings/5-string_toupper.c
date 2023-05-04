@@ -7,7 +7,6 @@
  *
  * Return: char
  */
-
 char *string_toupper(char *str)
 {
 	char *start;
@@ -19,5 +18,5 @@ char *string_toupper(char *str)
 			*start = *start - 32;
 	 	start++;
 	}
-	return str;
+	return (str);
 }
