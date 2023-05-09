@@ -6,7 +6,7 @@
  *
  * Return: a pointer to the bytes s that match with accept
  */
- char *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
 
