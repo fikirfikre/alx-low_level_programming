@@ -10,6 +10,10 @@ int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
+/**
+ *_sqrt - it check number if square root or not
+ * Return: square root of number
+ */
 int _sqrt(int x, int y)
 {
 	if (y * y == x)
