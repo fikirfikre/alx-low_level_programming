@@ -12,6 +12,8 @@ int _sqrt_recursion(int n)
 }
 /**
  *_sqrt - it check number if square root or not
+ * x: a square of a number
+ * y: a square root of a number
  * Return: square root of number
  */
 int _sqrt(int x, int y)
