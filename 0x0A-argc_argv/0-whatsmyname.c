@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - it print its file name, followed by a line
  * @argc: length of argv array
