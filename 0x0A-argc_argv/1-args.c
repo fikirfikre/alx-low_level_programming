@@ -4,7 +4,7 @@
  * @argc: number of argument in argv
  * @argv: an array of argument
  *
- * Return: 0
+ * Return: 0 if it Success
  */
 int main(int argc, char *argv[])
 {
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		while(*argv++)
 			i++;
-		printf("%d\n", i - 1);	
+		printf("%d\n", i - 1);
 	}
 	return (0);
 }
