@@ -20,13 +20,13 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	else
-	{ 
+	{
 		while (i < 3)
 		{
 			mul = mul * atoi(argv[i]);
 			i++;
 		}
-		printf("%d\n",mul);	
+		printf("%d\n",mul);
 	}
 	return (0);
-}		
+}
