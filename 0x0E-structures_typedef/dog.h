@@ -1,4 +1,5 @@
 #define DOC_H
+#include <stdio.h>
 /**
  * struct dog - a new type
  * @name: string
@@ -12,3 +13,4 @@ typedef struct dog
 	float age;
 	char *owner;
 } dog;
+void init_dog(struct dog *d, char *name, float age, char *owner);
